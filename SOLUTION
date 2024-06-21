@@ -1,17 +1,46 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
-
+814c5723c21e7e90a3eae36c8df3c513
 
 Kernel System Calls
 -------------------
-<Your Answer>
+The program looks for whether there is a folder named: "welcomeToDevOpsTheHardWay"
+If such a folder is not found, the software creates such a folder
+and inside it creates a file called "goodLuck"
+in which it is written "There you go... tell me what I do..."
+
+Binary Numbers
+-------------------
+1.
+we convert from Bin to Dec like this exemple of 111:
+1^2*2 + 1^2*1 + 1^2*0
+so 4 + 2 + 1 = 7
+
+111 = 7
+100 = 4
+10110 = 22
+
+2. 1^2*7 + 1^2*6 + 1^2*5...
+11111111 = 255
+
+3. The leftmost bit would represent a - or +
+0 for +
+1 for -
+invert all the digits and add 1
+for exemple:
+0 1111 1111 = 255
+1 0000 0000 + 1
+1 0000 0001 = - 255
+
+4. We can divide by 10 the result
+for exemple:
+1111 1111 = 255
+255/10 = 25.5
+
 
 
 Broken Symlink
--------------------
-<Your Answer>
-
-
-
-Binary Numbers
 --------------
-<Your Answer>
+The mistake of the DEVOPS team is that they used a soft link
+ instead of a hard link, so when the link file was moved to another folder, the link was canceled
+My solution is to use hard link
+My intention is to use the same code. But in the creation command of the link, simply delete the s flag
+
