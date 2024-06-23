@@ -1,3 +1,4 @@
+#blabla
 chmod u+x generateSecret.sh
 rm -r maliciousFiles/
 mkdir secretDir
